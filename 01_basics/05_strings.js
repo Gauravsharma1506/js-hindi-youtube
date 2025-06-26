@@ -15,4 +15,8 @@ console.log(gameName.toUpperCase())
 
 console.log(gameName.charAt(2))
 console.log(gameName.indexOf('a'))
-
+console.log(gameName.substring(0,4))
+console.log(gameName.slice(-8,4))   //slice is used as we can  handel it by negative values also
+const url="https://hitesh%20sharma"
+console.log(url.replace('%20','_'))
+console.log(url.includes('hitesh'))
